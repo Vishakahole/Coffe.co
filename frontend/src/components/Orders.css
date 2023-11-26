@@ -1,0 +1,28 @@
+.order-table {
+    border-collapse: collapse;
+    display: table;
+    width: 100%;
+    /* margin: 20rem; */
+    margin-left: 30rem;
+    left: -20rem;
+    border: 4px solid orange;
+    padding: auto;
+    /* right: 15rem; */
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 5px;
+  }
+  
+  .order-table th,
+  .order-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+
+  .orName {
+    font-size: 20px;
+    font-weight: bolder;
+    left: -10rem;
+    position: relative;
+  }
+  

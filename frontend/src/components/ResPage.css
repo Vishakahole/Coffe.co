@@ -1,0 +1,234 @@
+/* Add this CSS to your component's CSS file or a separate CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@700&display=swap');
+
+/* Style for the main container */
+.restaurant-dashboard {
+    background-color: #F2E9DE;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #Logout{
+    align-items: right;
+  }
+  
+  /* Style for the header */
+  .restaurant-dashboard h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  
+  /* Style for the restaurant name section */
+  .restaurant-name {
+    margin-bottom: 20px;
+    background-color:#DD9B4D;
+    color: white;
+    text-align: center;
+  }
+  
+  .restaurant-name h4 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the input and button in the restaurant name section */
+  .restaurant-name input {
+    padding: 5px;
+    width: 60%;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .restaurant-name button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .restaurant-name button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the menu card section */
+  .menu-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+
+  .restaurant-MenuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .restaurant-MenuItems p{
+    position: relative;
+    top: 10vh;
+    font-size: large;
+  }
+  
+  .EMenu {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 5vh;
+    background-color: #F5F4F4;
+  }
+  
+  .EMenu h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .grid-contanier {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .menu-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .pictitle1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
+    color: rgb(128, 12, 12);
+    font-family: 'Inter', sans-serif;
+    /* text-align: center; */
+    position: relative;
+  }
+  
+  .pictitle {
+    font-size: 16px;
+    color: #666;
+    display: block;
+    color: rgb(128, 12, 12);
+    /* font-family: 'Inter', sans-serif; */
+    /* text-align: center; */
+    position: relative;
+    /* left: 1vw; */
+  }
+  
+  #delete {
+    background-color: #f00;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .grid-contanier {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .grid-contanier {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
+  
+  .Add_con{
+    position: absolute;
+    top: 8.5rem;
+    right: 5rem;
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  .Adding{       
+    flex-direction: column;
+    color: rgb(46, 15, 15);
+    background-color: rgb(232, 216, 194);
+    height: 5vh;
+    border-radius: 5px;
+    width: max-content;
+  }
+
+  .resname{
+    position: absolute;
+    left: 10rem;
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 5px;
+    border-color: orange;
+    height: 5vh;
+  }
+
+  .resDetails button{
+    left: 20rem;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #DD9B4D;
+    border-color: orange; 
+    height: 5vh;
+    color: #fff;
+  }
+
+  .resDetails button:hover, .Adding button:hover, #delete:hover{
+    background-color: #de800e;
+    border-color: #de800e;
+  }
+
+  .Adding input{
+    border-radius: 5px;
+    border-color: orange;
+    height: 5vh;
+  }
+
+  .Adding button{
+    border-radius: 5px;
+    background-color: #DD9B4D;
+    border-color: orange; 
+    height: 5vh;
+    color: #fff;
+  }
+
+  #delete{
+    position: relative;
+    
+    border: none;
+    background-color: rgb(222, 217, 211);
+    border-radius: 5px;
+    height: 4vh;
+  }
+
+  
